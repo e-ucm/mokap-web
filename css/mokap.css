@@ -1,0 +1,511 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext);
+
+@link-color
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 0px;
+  color: #5a5a5a;
+  /*color: #795548;*/
+}
+
+a {
+	color: #795548;
+}
+a:hover{
+	color:#4d332d;
+}
+
+h1,h2,h3{
+	font-family: 'Shadows Into Light Two';
+}
+
+h2,h3{
+	padding-bottom:20px;
+}
+
+
+h1{
+	font-size:50px;
+	padding:30px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.mainsection{
+	padding-top:30px;
+}
+
+.h1-pink{
+	background-color:#c1175a;
+	color:white;
+}
+.h1-bluegrey{
+	background-color:#536d79;
+	color:white;
+}
+.h1-red{
+	background-color:#d22e2e;
+	color:white;
+}
+.h1-purple{
+	background-color:#8d23a9;
+	color:white;
+}
+.h1-deeppurple{
+	background-color:#5d34b0;
+	color:white;
+}
+.h1-blue{
+	background-color:#1875d1;
+	color:white;
+}
+.h1-cyan{
+	background-color:#0096a6;
+	color:white;
+}
+.h1-teal{
+	background-color:#00786a;
+	color:white;
+}
+.h1-lightgreen{
+	background-color:#679e37;
+	color:white;
+}
+.h1-lime{
+	background-color:#edff40;
+	color:black;
+}
+.h1-yellow{
+	background-color:#fcd734;
+	color:black;
+}
+.h1-amber{
+	background-color:#ff9f00;
+	color:white;
+}
+.h1-deeporange{
+	background-color:#d74214;
+	color:white;
+}
+.h1-orange{
+	background-color:#f47b00;
+	color:white;
+}
+.h1-deeporange{
+	background-color:#d74214;
+	color:white;
+}
+.h1-mokap-foam{
+	background-color:#ac705d;
+	color:#5d3d32;
+}
+.h1-mokap-coffee{
+	background-color:#5d3d32;
+	color:#ac705d;
+}
+.h1-grey1{
+	background-color:#ededed;
+	color:#414141;
+}
+.h1-grey2{
+	background-color:#bcbcbc;
+	color:#414141;
+}
+.h1-grey3{
+	background-color:#606060;
+	color:white;
+}
+.h1-grey4{
+	background-color:#414141;
+	color:#ededed;
+}
+
+.carousel-heading{
+	font-size: 28px;
+}
+body,code {
+	font-family: 'Architects Daughter', cursive;
+	font-size:20px;
+}
+
+
+
+/* WARNING DIALOGS
+---------------------------------------*/
+.warning{
+	background-color: #333333;
+	color:#ffffff;
+}
+
+.warning_section{
+	border-top:0px;
+	border-bottom:0px;
+}
+
+p.warning_text{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.warning_close{
+	text-shadow:none;
+	color:#ffffff;
+}
+.warning_close:hover{
+	color:#ff6e00;
+}
+
+.keepcalm{
+	padding-right:10px;
+}
+
+/* Alerts
+---------------------------------------*/
+.alert{
+	position:fixed;
+	z-index:10;
+	top:50px;
+}
+
+.form-control{
+	margin:10px;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 8px #ac705d; /*rgba(236, 135, 82, 0.6);*/
+	border-color: #664238;
+}
+.form-control:hover {
+	border-color: #5d3d32;
+}
+
+.contact_background{
+	/*background-color:#aaaaaa;
+	background-image:url("../img/stripedbackground01.png");
+	background-repeat: repeat-x;*/
+	
+	margin-top:40px;
+}
+
+/* Mail data invalid*/
+.popover-mail-invalid{
+	background-color:#ee9999;
+}
+.arrow-mail-invalid{
+	border-top-color:#ee9999 !important;
+}
+.popover.top>.arrow-mail-invalid:after{
+	border-top-color:#ee9999 !important;
+}
+
+.popover-title-mail-invalid{
+	background-color:#e43834;
+	color:#ffffff;
+}
+
+.popover-content-mail-invalid{
+}
+
+/* Mail failed*/
+.popover-mail-fail{
+	background-color:#ffdf81;
+}
+.arrow-mail-fail{
+	border-top-color:#ffdf81 !important;
+}
+.popover.top>.arrow-mail-fail:after{
+	border-top-color:#ffdf81 !important;
+}
+
+.popover-title-mail-fail{
+	background-color:#ffc927;
+	color:#ffffff;
+}
+
+.popover-content-mail-fail{
+}
+
+/* Mail data sent ok*/
+.popover-mail-ok{
+	background-color:#c7e5c8;
+}
+.arrow-mail-ok{
+	border-top-color:#c7e5c8 !important;
+}
+.popover.top>.arrow-mail-ok:after{
+	border-top-color:#c7e5c8 !important;
+}
+
+.popover-title-mail-ok{
+	background-color:#9bcb64;
+	color:#ffffff;
+}
+
+.popover-content-mail-invalid{
+}
+
+/* BUTTONS
+---------------------------------------------*/
+.btn_mokap{
+	background-color:#ff6e00;
+	color:#ffffff;
+	border-color:#e55000;
+}
+
+.btn_mokap:hover{
+	background-color:#ff897f;
+	color:#4d332d;
+	border-color:#4d332d;
+}
+
+/* FOOTER
+--------------------------------------------------*/
+.footer_mokap{
+	/*background-color:#ff897f;*/
+	background-color: #be350b;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	padding-top:25px;
+	padding-bottom:25px;
+	color:#fefefe;
+}
+
+a.footer_mokap_backtotop{
+	color:#fefefe;
+}
+a.footer_mokap_backtotop:hover{
+	color:#ffffff;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar_mokap{
+	/*font-family:'Montserrat', Sans serif;
+	font-weight: 400;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:14pt;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0px;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  /*background-color: #777;*/
+  background-color: #795548;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-md-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.marketing_img{
+	height:150px;
+	/*align:center;
+	opacity:0;
+	position:relative;
+	top:150px;*/
+}
+
+.marketing_bullet{
+	opacity:0;
+}
+
+.animate_on_scroll{
+	opacity:0;
+	position:relative;
+}  
+
+.fadeIn_on_scroll{
+	opacity:0;
+}
+.mokap_divider{
+	margin:25px;
+}
+
+/* Featurettes
+------------------------- */
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/*.featurette_image{
+	opacity:0;
+	position:relative;
+}*/
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/*@media (min-width: @screen-xs-min){*/
+  .featurette_image{
+	margin:auto;
+	max-width:50%;
+  }
+
+
+/* @screen-sm-min 768px and above */
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  /*.featurette-heading {
+    font-size: 50px;
+  }*/
+  
+  .working_on_it{
+	margin-top:20px;
+  }
+
+  
+}
+
+/* @screen-md-min 992px and above*/
+@media (min-width: 992px) {
+  /*.featurette-heading {
+    margin-top: 30px;
+  }*/
+  .col-md-9{
+	padding-top:5%;
+  }
+  .keepcalm{
+  	border-right:1px;
+	border-right-color:#ffffff;
+	border-right-style:solid;
+  }
+  .working_on_it{
+	margin-top:80px;
+  }
+	.enter_from_right{
+		left:100px;
+		/*padding-left:20px;*/
+	}
+
+	.enter_from_left{
+		left:-100px;
+	}
+
+	.enter_from_above{
+		top:-70px;
+	}
+
+	.above-large{
+		top:-100px;
+	}
+
+	.above-xlarge{
+		top:-200px;
+	}
+
+	.above-xxlarge{
+		top:-300px;
+	}
+
+	.enter_from_below{
+		top:40px;
+	}
+
+	.below-large{
+		top:80px;
+	}
+
+	.below-xlarge{
+		top:200px;
+	}
+
+	.below-xxlarge{
+		top:300px;
+	}
+	
+	.featurette_image{
+		max-width:100%;
+	}	  
+
+}
+

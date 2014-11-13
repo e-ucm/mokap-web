@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>mokap (Android app)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/mokap.css" rel="stylesheet">
+  </head>
+
+  
+  <!-- NAVBAR
+================================================== -->
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
+	<!--<script>
+		if (navigator.language=='es'){
+			window.location.replace("./es/");
+		}
+	</script>-->
+	
+	<div class="navbar-wrapper navbar_mokap" id="home">
+      <div class="container">
+
+        <nav class="nav navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="javascript:keepcalm_dialog('unpublished');" data-toggle="tooltip" data-placement="bottom" title="Download the app from Google Play"><img src="img/gplay_icon_01.png" class="img_responsive" style="height:20px" alt="White version of the google Play icon"/></a>
+			  <a class="navbar-brand" style="font-size:23px; color:#ffffff" href="javascript:keepcalm_dialog('community_offline');" data-toggle="tooltip" data-placement="bottom" title="Go to the community"><span class="glyphicon glyphicon-cloud" alt="Community"></span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              
+			  <ul class="nav navbar-nav">
+                <li class="active"><a href="#home" data-toggle="tooltip" data-placement="bottom" title="Scroll to the top"><span class="glyphicon glyphicon-home" alt="Home"/><span class="visible-xs-inline"> HOME</span></a></li>
+                <li><a class="page-scroll" href="#features" data-toggle="tooltip" data-placement="bottom" title="Discover mokap's awesome features!">FEATURES</a></li>
+                <li><a class="page-scroll" href="#contactus" data-toggle="tooltip" data-placement="bottom" title="Send us a mail to get in touch with us">CONTACT US</a></li>
+              </ul>
+			  
+			  <!--<ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">English</a></li>
+                <li><a href="#home">Spanish</a></li>
+              </ul>-->
+			  
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+	
+    <!-- Carousel
+    ================================================== -->
+    <div id="promo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#promo" data-slide-to="0" class="active"></li>
+        <li data-target="#promo" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container">
+            <div class="carousel-caption">
+			  <center><img src="img/mokap-logo-web-01.png" class="img-responsive" alt="mokap"></center>
+              <h2 class="carousel-heading">A different way to create animated interactive content, right in your Android phone or tablet</h2>
+			  <!-- Uncomment once the app is available for download 
+			  ===================================================== 
+			  <p><a href="https://play.google.com/store/apps/details?id=es.eucm.ead.android"><img src="img/english_get.png" alt="Get it freely on Google Play"/></a></p>-->
+			  <p><a href="javascript:keepcalm_dialog('unpublished');"><img src="img/english_soonavailable.png" alt="Soon available on Google Play"/></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+		      <center><a href="/community/index.php" target="_blank"><img src="img/mokapcommunity-logo-web-01.png" class="img-responsive" alt="mokap Community"></a></center>
+              <h2 class="carousel-heading">Thousands of free graphic assets and sounds ready to use directly from the app</h2>
+              <!--<p><a class="btn btn-lg btn-primary btn_mokap" href="/community/index.php" target="_blank" role="button">Join to share (and more)</a></p>-->
+			  <p><a class="btn btn-lg btn-primary btn_mokap" href="javascript:keepcalm_dialog('community_offline');" role="button">Join to share (and more)</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#promo" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#promo" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-md-4 marketing_col">
+		  <div id="image01">
+			<img src="img/contenttypes.png" alt="varied types of contents" class="marketing_img img_responsive animate_on_scroll enter_from_above"/>
+		  </div>
+		  <div id="bullet01" class="animate_on_scroll enter_from_below">
+			  <h2>Awesome presentations, postcards, guided visits, games and more</h2>
+			  <p><code>mokap</code> gives you the nuts and bolts, it's up to you to decide what to do with them. The limit is just your imagination!</p>
+		  </div>          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4 marketing_col">
+			<div>
+				<img src="img/purposes.png" alt="varied types of users" class="img_responsive marihuangel animate_on_scroll enter_from_above marketing_img"/>
+			</div>
+			<div class="animate_on_scroll enter_from_below">
+				<h2>For every person and purpose</h2>
+				<p><code>mokap</code> is great for making content for a myriad of purposes, and for everyone. No matter if you are preparing engaging content for your students, a presentation for coworkers, or designing a postcard to greet a friend on his new job. <code>mokap</code> is your app!</p>
+			</div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4 marketing_col">
+			<div>
+				<img src="img/devices.png" alt="tablet and smartphone" class="img_responsive animate_on_scroll enter_from_above marketing_img"/>
+			</div>
+			<div class="animate_on_scroll enter_from_below">
+				<h2>Fluent mobile user experience</h2>
+				<p>With a beautiful and modern interface and a seamless workflow, <code>mokap</code> is designed to provide a great user experience. Just grab your coffee mug on one hand, your favourite Android tablet or phone on the other, and enjoy!</p>
+			</div>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	</div>
+
+      <!-- START THE FEATURETTES -->
+	<div id="features" class="mainsection">
+		<h1 class="fadeIn_on_scroll h1-amber">Features</h1>	  
+		<div class="container marketing">
+	  
+		  <div class="row featurette">
+			<div class="col-md-9 animate_on_scroll fast enter_from_below">
+			  <h2 class="featurette-heading">Take photos and videos, or draw with your own finger to compose scenes</h2>
+			  <p class="lead"><code>mokap</code> provides you with multiple tools to get your scenes populated with images. And once you are done composing scenes, get them connected seamlessly.</p>
+			</div>
+			<div class="col-md-3 animate_on_scroll enter_from_right">
+			  <img class="img-responsive featurette_image" src="img/camera_and_draw.png" alt="Two images from above of people taking a picture with the phone and drawing on a tablet"/>
+			</div>
+		  </div>
+
+		  <hr class="mokap-divider fadeIn_on_scroll"/>
+
+		  <div class="row featurette">
+			
+			<div class="col-md-9 col-md-push-3 animate_on_scroll fast enter_from_below">
+			  <h2 class="featurette-heading">Import rich assets from the community. <span class="text-muted">To make life simpler.</span></h2>
+			  <p class="lead">Don't like spending countless hours searching for the right picture? Hate handling sound formats? Tired of not finding animated characters for your games? <code>mokap</code> provides you with thousands of graphic assets ready to use.</p>
+			</div>
+			<div class="col-md-3 col-md-pull-9">
+			  <img class="img-responsive featurette_image animate_on_scroll enter_from_left" src="img/importcommunity.png" alt="Three images are imported into a game from the online community">
+			</div>
+		  </div>
+
+		  <hr class="mokap-divider fadeIn_on_scroll"/>
+
+		  <div class="row featurette">
+			<div class="col-md-9  animate_on_scroll fast enter_from_below">
+			  <h2 class="featurette-heading">Edit your images with <a href="https://play.google.com/store/apps/details?id=com.pixlr.express" target="_blank">Pixlr Express</a> (&copy; Autodesk Inc.). <span class="text-muted">Awesome effects at the reach of your hand</span></h2>
+			  <p class="lead"><a href="https://play.google.com/store/apps/details?id=com.pixlr.express" target="_blank">Pixlr Express</a> is a great photo editing tool freely available in Android that works beautifully with <code>mokap</code>. Install it on your device to improve your <code>mokap</code> experience.</p>
+			</div>
+			<div class="col-md-3 animate_on_scroll enter_from_right">
+			  <img class="img-responsive featurette_image" src="img/pixlr.png" alt="Pixlr logo"/>
+			</div>
+		  </div>
+		  
+		  <hr class="mokap-divider fadeIn_on_scroll"/>
+		  
+		  <div class="row featurette">
+			<div class="col-md-9 col-md-push-3 animate_on_scroll fast enter_from_below">
+			  <h2 class="featurette-heading">Ambient, animate and add interactivity</h2>
+			  <p class="lead">Enhance your scenes with animations, dynamic ambience effects and simple interactions. It is just a few touches ahead!</p>
+			</div>
+			<div class="col-md-3 col-md-pull-9">
+			  <div class="animate_on_scroll enter_from_left"><img class="img-responsive featurette_image" src="img/ambience.png" alt="Atmospheric effects: rain, wind, snow, and an animation of a plane flying around the globe"/></div>
+			</div>
+
+		  </div>
+
+		  <hr class="mokap-divider fadeIn_on_scroll"/>
+
+		  <div class="row featurette">
+			<div class="col-md-9  animate_on_scroll fast enter_from_below">
+			  <h2 class="featurette-heading">Once you are done, share your work! <span class="text-muted">and astonish your friends and colleagues.</span></h2>
+			  <p class="lead">You can easily share your mokaps across devices and with other people</p>
+			</div>
+			<div class="col-md-3 animate_on_scroll enter_from_right">
+			  <img class="img-responsive featurette_image" src="img/share.png" alt="A mokap is sent to a different device through the online community">
+			</div>
+		  </div>	  
+		</div>
+
+      <!-- /END THE FEATURETTES -->
+
+	</div><!-- /.container -->
+
+	<!--Contact us
+	================-->	
+	
+	<div class="contact_background" class="mainsection" id="contactus">
+		<h1 class="fadeIn_on_scroll h1-mokap-foam">Contact us</h1>
+		<div class="container marketing">
+			<!--<canvas id="bgCanvas" width="" height="100%"></canvas>-->
+			<div>
+				<form name="contact_form" method="post" action="email/index.php" class="ajaxform" id="ajaxform" role="form">
+					
+					<fieldset>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-8 col-md-offset-2">
+									<p>
+										Want to know more? Interested in being the first one to get the app? Drop us a line! We'll get back to you as soon as possible.
+									</p>
+								</div>
+							<div class="row"><div class="form-group form-group-lg">
+								<div class="col-md-4 col-md-offset-2 animate_on_scroll enter_from_left fast">
+									<input type="text" name="name" id="name" value=""  class="form-control" placeholder="Your Name" />
+								</div>
+								<div class="col-md-4 enter_from_right animate_on_scroll fast">
+									<input type="text" name="email" id="email" value="" class="form-control" placeholder="Your Email" />
+								</div>
+							</div></div>
+							<div class="row animate_on_scroll enter_from_below fast"><div class="form-group form-group-lg">
+								<div class="col-md-8 col-md-offset-2">
+									<input type="text" name="subject" id="subject" value=""  class="form-control" placeholder="Message subject" />
+								</div>
+							</div></div>
+							<div class="row"><div class="form-group">
+								<div class="col-md-8 col-md-offset-2 animate_on_scroll enter_from_below fast below-large">
+									<textarea rows="11" name="message" id="message" class="form-control" placeholder="Message body" style="width:100%"></textarea>
+								</div>
+							</div></div>
+							<div class="row"><div class="form-group">
+								<div class="col-md-3 col-md-offset-3"><center>
+									<p><img id="captcha" class="img_responsive fadeIn_on_scroll" src="/email/securimage_show.php" alt="CAPTCHA Image" />
+									</p>
+									<p><a href="#" onclick="javascript:resetCaptcha();">[ Different Image ]</a>
+									</p>
+								</center></div>
+								<div class="col-md-3" style="padding-top:1%">
+									<input type="text" name="captcha_code" id="captcha_code" size="10" maxlength="6" class="form-control animate_on_scroll enter_from_right fast" />
+									<input type="submit" value="Send Your Message" name="submit" id="contact_mail_btn" class="btn btn-lg btn-primary btn_mokap pull-right animate_on_scroll enter_from_right" />
+									
+								</div>
+								<!--<div class="col-md-2">
+									
+								</div>-->
+							</div></div>
+						</div>
+					</fieldset>
+				</form>	
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div class="footer footer_mokap">
+		<div class="container">
+			<p class="pull-right"><a class="footer_mokap_backtotop" href="#home"><span class="glyphicon glyphicon-arrow-up"></span><span> Back to top</span></a></p>
+			<p><code>mokap</code> is a project of the <a href="http://www.e-ucm.es" target="_blank"><img src="img/eucm.png" alt="e-ucm research group (logo)" style="height:25px" class="img_responsive"/></a> research group, &copy; 2014</p>
+		</div>
+	</div>
+
+
+	<!-- MODAL WARNING DIALOG: TELLS USER MOKAP IS NOT AVAILABLE YET -->
+	<div class="modal fade" id="keepcalm_dialog" tabindex="-1" role="dialog" aria-labelledby="warning_unpublishedLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content warning">
+		  <!-- Header: just a close button -->
+		  <div class="modal-header warning_section">
+			<button type="button" class="close warning_close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		  </div>
+		  
+		  <!-- 2-column body: keep calm (left) + message (right) -->
+		  <div class="modal-body warning_section">
+			<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div  class="keepcalm"><center>
+						<img src="img/crown.png" alt="Crown image" class="img_responsive" style="width:80px"/>
+						<p class="warning_text" style="font-size:25pt"><b>KEEP CALM</b></p>
+						<p class="warning_text" style="font-size:20pt">AND</p>
+						<img src="img/mokap-animation02.gif" class="img-responsive" alt="mokap" style="width:100px">
+					</center></div>
+				</div>
+				<div class="col-md-6">
+					<div class="working_on_it"><center>
+						<p id="keepcalm_dialog_msg">Msg</p>
+					</center></div>
+				</div>
+			</div>
+			</div>
+		  </div>
+		  <div class="modal-footer warning_section">
+			<button id="keepcalm_dialog_okbutton" type="button" class="btn btn-primary btn_mokap" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!-- /END OF WARNING DIALOG -->
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/mokap.js"></script>
+	<!--<script type="text/javascript" src="js/patternizer.js"></script>
+	
+	<script type="text/javascript">
+
+		var bgCanvas = document.getElementById('bgCanvas');
+
+		bgCanvas.patternizer({
+		stripes : [ 
+			{
+				color: '#ffaa90',
+				rotation: 45,
+				opacity: 100,
+				mode: 'normal',
+				width: 1,
+				gap: 13,
+				offset: 0
+			}
+		],
+		bg : '#ff8964'
+	});
+
+	</script>-->
+	
+    <!--<script src="../../assets/js/docs.min.js"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+  </body>
+</html>
