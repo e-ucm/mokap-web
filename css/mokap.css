@@ -89,6 +89,10 @@ h1{
 	background-color:#ff9f00;
 	color:white;
 }
+.h1-tweeterblue{
+	background-color:#8ec1da;
+	color:white;
+}
 .h1-deeporange{
 	background-color:#d74214;
 	color:white;
@@ -162,6 +166,30 @@ p.warning_text{
 
 .keepcalm{
 	padding-right:10px;
+}
+
+/* Tweets
+---------------------------------------*/
+.tweet {overflow: hidden; clear: both; text-align: left; margin-bottom: 16px; background-color: #fff; padding-bottom: 5px; margin-left: 12px; margin-right: 12px;color: #383838; }
+.tweet.first { border: none; margin-bottom: 0px; }
+.tweet_foto { float: left;margin: 12px; }
+.tweet_text { float: left; font-size: 17px; line-height: 26px; padding: 8px; }
+.tweet_text a { color: #5bc0de;text-decoration: underline; }
+.tweet_text a:hover { color: #5bc0de; }
+.tweet_text a.profile { color: #5bc0de; text-decoration: none; font-weight: bold; }
+.tweet_text span { display: block; color: #ccc; }
+.tweet_text a.intent {margin-right: 6px;color: #111; }
+
+.tweet
+
+{
+
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.15);
+
+    -moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.15);
+
+    box-shadow:         2px 2px 1px 0px rgba(50, 50, 50, 0.15);
+
 }
 
 /* Alerts
