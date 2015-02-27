@@ -114,7 +114,7 @@ function setup_keepcalm_dialog_unpublished(){
 }
 
 function setup_keepcalm_dialog_comm_offline(){
-	setup_keepcalm_dialog("Sorry, but <code>mokap community</code> is not available right now. We are working to get it up and running as soon as possible.", "Pitty. I'll try later");
+	setup_keepcalm_dialog("Sorry, but <code>mokap community</code> is not available right now. We are working to get it up and running as soon as possible.", "Pity. I'll try later");
 }
 
 function setup_keepcalm_dialog(msg,okbtn){
